@@ -1,0 +1,11 @@
+Multicolinealidad:
+Es la relación entre dos features independientes muy cercanas
+a 1 o -1, estas se deben eliminar porque pueden traer los 
+siguientes problemas:
+
+Se ve alterado el resultado, puede que no afecte la predicción
+pero si la explicación del resultado del modelo.
+
+como lo soluciono?
+1. Elimino los features
+2. Hago uso de PCA (Reduccion de dimensionalidad)
